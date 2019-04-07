@@ -23,7 +23,8 @@
             android:layout_weight=".5"
             android:layout_height="wrap_content"
             android:hint="Height in Centimeters"
-            android:inputType="numberDecimal"/>
+            android:inputType="numberDecimal"
+            android:id="@+id/etHeight"/>
 
     </android.support.v7.widget.LinearLayoutCompat>
 
@@ -43,7 +44,8 @@
             android:layout_weight=".5"
             android:layout_height="wrap_content"
             android:hint="Weight in Kilograms"
-            android:inputType="numberDecimal"/>
+            android:inputType="numberDecimal"
+            android:id="@+id/etWeight"/>
 
     </android.support.v7.widget.LinearLayoutCompat>
 
@@ -61,6 +63,7 @@
             android:padding="10dp"
             android:layout_marginTop="10dp"
             android:background="#ccc"
+            android:id="@+id/btnCalculate"
             />
 
     </android.support.v7.widget.LinearLayoutCompat>
@@ -82,6 +85,7 @@
             android:padding="10dp"
             android:textColor="#fff"
             android:textAlignment="center"
+            android:id="@+id/tvOutput"
             android:text="Your BMI is "
             />
 
