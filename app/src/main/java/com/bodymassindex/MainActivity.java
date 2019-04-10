@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-
         if (v.getId() == R.id.btnCalculate) {
             if (validation()) {
                 height = Float.parseFloat(etHeight.getText().toString());
@@ -55,8 +54,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             }
         }
-
-
 
     }
 
